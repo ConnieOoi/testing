@@ -16,5 +16,8 @@ Route::get('/login', 'PagesController@login');
 Route::get('/registration', 'PagesController@registration');
 Route::get('/history', 'PagesController@history');
 Route::get('/userlist', 'PagesController@userlist');
-
-
+Route::get('/', 'PagesController@index');
+Route::get('/login', 'PagesController@login');
+Route::get('/registration', 'PagesController@registration');
+Route::get('/history', 'PagesController@history');
+Route::get('/userlist', 'PagesController@userlist');
